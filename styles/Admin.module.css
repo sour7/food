@@ -1,0 +1,39 @@
+.container {
+  padding: 50px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+.item {
+  flex: 1;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  padding: 0 10px;
+  border-radius: 7px;
+  height: max-content;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 20px;
+  text-align: left;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.button:first-child {
+  background-color: teal;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+
+.button:last-child {
+  background-color: crimson;
+  border-radius: 7px;
+}
